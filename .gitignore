@@ -1,0 +1,22 @@
+# Protect API keys and environment variables
+.env
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore local IDE settings
+.vscode/
+# Ignore temporary testing scripts
+check_models.py
+test_gemini.py
+test_groq.py
+test_tools.py
+# Ignore local CSV datasets
+*.csv
